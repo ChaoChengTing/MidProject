@@ -9,6 +9,7 @@ body,
 header,
 section,
 content,
+footer,
 p{
   margin: 0;
   padding: 0;
@@ -95,20 +96,29 @@ header{
 
 section{
   overflow: auto;
-  margin: 0 50px;
+  margin: 20px 50px;
 }
 
 .content{
   margin: 10px 0px;
   padding: 0 70px;
-  width: 60%;
-  height: 700px;
+  width: 57%;
+  height: 760px;
   float: left;
-  //border: 1px solid black;
+  border: 1px solid black;
 }
 
 .r{
-  width: 40%;
+  width: 43%;
+  margin: 10px 0 0 0;
+  float: right;
+  padding: 0;
+}
+
+.content.r{
+  height: 760px;
+  background-color: #eeeeee;
+  border: 1px solid black;
 }
 
 .cafe{
@@ -116,39 +126,44 @@ section{
 }
 
 .product{
+  margin-top: 20px;
   margin-bottom: 10px;
+  font-weight: 1000;
 }
 
 .in{
   position: relative;
   text-align: center;
+  width: 654px;
+  margin-left: 50px;
+  border: 1px solid black;
 }
+
 
 .in a{
   font-size: 20px;
+  color: #085394;
+  font-weight: 800;
 }
 
 .in .pro{
   text-align: left;
-  padding: 0px 90px;
-  margin: 0 60px;
-  margin-bottom:10px;
-  height:50px;
+  padding: 10px 50px;
   transition: all .2s;
-  display:flex;
-  align-items:center;
 }
 
 .in .pro:hover{
-  -transform: scale(1.2);
-  height:100px;
-  background-color: #cccccc
+  width: 593px;
+  transform: scale(1.1);
+  background-color: #eeeeee;
+  padding-right: 20px;
+  margin-left: 30px;
 }
 
 .footer{
   position: relative;
   width: 100%;
-  height: 300px;
+  height: 250px;
   background-color: #dddddd;
 }
 
